@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34114.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RamenGO.API", "RamenGO.API.csproj", "{ACF6B287-4877-46E5-B4BF-4C2DE5EDE5B9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{868622EF-F6CC-4CD7-B32C-C77E9499B8FB} = {868622EF-F6CC-4CD7-B32C-C77E9499B8FB}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{0C29D4B6-6E8F-4B6E-BDE2-12C823BCDF2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{5B191932-B7D4-46B2-A55B-5E07EE47CD27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Services", "3 - Services", "{AB9F7A8B-C904-4ACC-8F87-6F52A4E2B75A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{1B74476E-064A-423D-802A-63AEDF0658F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - ACL", "5 - ACL", "{9E7B949D-B082-421D-96F9-31E77EF1463A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RamenGo.Domain", "..\RamenGo.Domain\RamenGo.Domain.csproj", "{868622EF-F6CC-4CD7-B32C-C77E9499B8FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RamenGo.Service", "..\RamenGo.Service\RamenGo.Service.csproj", "{9E789559-58CE-4BEB-B8E2-3C5741E4DFEE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DC30BF46-BB2C-4F16-9EC3-AF584C5F9BFB} = {DC30BF46-BB2C-4F16-9EC3-AF584C5F9BFB}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RamenGo.ACL", "..\RamenGo.ACL\RamenGo.ACL.csproj", "{DC30BF46-BB2C-4F16-9EC3-AF584C5F9BFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACF6B287-4877-46E5-B4BF-4C2DE5EDE5B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF6B287-4877-46E5-B4BF-4C2DE5EDE5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF6B287-4877-46E5-B4BF-4C2DE5EDE5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF6B287-4877-46E5-B4BF-4C2DE5EDE5B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{868622EF-F6CC-4CD7-B32C-C77E9499B8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868622EF-F6CC-4CD7-B32C-C77E9499B8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868622EF-F6CC-4CD7-B32C-C77E9499B8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868622EF-F6CC-4CD7-B32C-C77E9499B8FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E789559-58CE-4BEB-B8E2-3C5741E4DFEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E789559-58CE-4BEB-B8E2-3C5741E4DFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E789559-58CE-4BEB-B8E2-3C5741E4DFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E789559-58CE-4BEB-B8E2-3C5741E4DFEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC30BF46-BB2C-4F16-9EC3-AF584C5F9BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC30BF46-BB2C-4F16-9EC3-AF584C5F9BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC30BF46-BB2C-4F16-9EC3-AF584C5F9BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC30BF46-BB2C-4F16-9EC3-AF584C5F9BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACF6B287-4877-46E5-B4BF-4C2DE5EDE5B9} = {0C29D4B6-6E8F-4B6E-BDE2-12C823BCDF2A}
+		{868622EF-F6CC-4CD7-B32C-C77E9499B8FB} = {5B191932-B7D4-46B2-A55B-5E07EE47CD27}
+		{9E789559-58CE-4BEB-B8E2-3C5741E4DFEE} = {AB9F7A8B-C904-4ACC-8F87-6F52A4E2B75A}
+		{DC30BF46-BB2C-4F16-9EC3-AF584C5F9BFB} = {9E7B949D-B082-421D-96F9-31E77EF1463A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF1EBB28-6257-40DE-842F-6BE4AE99BE06}
+	EndGlobalSection
+EndGlobal

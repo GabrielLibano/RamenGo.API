@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RamenGO.API</name>
+    </assembly>
+    <members>
+        <member name="M:RamenGO.API.Controllers.RamenGoController.GetBroths(System.String)">
+             <summary>
+             List all available broths
+             </summary>
+             <remarks>
+            
+             </remarks>
+             <returns>A list of broths</returns>
+             <response code="200">Returns the list of broths</response>
+             <response code="403">
+             Forbidden
+             </response>
+        </member>
+        <member name="M:RamenGO.API.Controllers.RamenGoController.GetProteins(System.String)">
+             <summary>
+             List all available proteins
+             </summary>
+             <remarks>
+            
+             </remarks>
+             <returns>A list of proteins</returns>
+             <response code="200">Returns the list of proteins</response>
+             <response code="403">
+             Forbidden
+             </response>
+        </member>
+        <member name="M:RamenGO.API.Controllers.RamenGoController.Order(RamenGo.Domain.RequestModel.OrderRequestModel,System.String)">
+             <summary>
+             Place an order
+             </summary>
+             <remarks>
+            
+             </remarks>
+             
+             <returns>Order details</returns>
+             
+             <response code="201">Order placed successfully</response>
+             <response code="400">Invalid request</response>
+             <response code="403">Forbidden</response>
+             <response code="500">Internet server error</response>
+        </member>
+        <member name="M:RamenGO.API.Controllers.RamenGoController.OrderPlainText(System.String)">
+             <summary>
+             Place an order
+             </summary>
+             <remarks>
+            
+             </remarks>
+             
+             <returns>Order details</returns>
+             
+             <response code="201">Order placed successfully</response>
+             <response code="400">Invalid request</response>
+             <response code="403">Forbidden</response>
+             <response code="500">Internet server error</response>
+        </member>
+    </members>
+</doc>
