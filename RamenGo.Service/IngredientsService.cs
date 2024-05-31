@@ -23,29 +23,11 @@ namespace RamenGo.Service
     }
     public List<ProteinsModel> GetProteins()
     {
-      List<ProteinsModel> listProteins = new List<ProteinsModel>();
+      List<ProteinsModel> listProtein;
 
-      var firstProteins = new ProteinsModel()
-      {
-        Id = "1",
-        ImageInactive = "https://tech.redventures.com.br/icons/pork/inactive.svg",
-        ImageActive = "https://tech.redventures.com.br/icons/pork/active.svg",
-        Name = "Chasu",
-        Description = "A sliced flavourful pork meat with a selection of season vegetables.",
-        Price = 10
-      };
-      var secondProteins = new ProteinsModel()
-      {
-        Id = "2",
-        ImageInactive = "https://tech.redventures.com.br/icons/pork/inactive.svg",
-        ImageActive = "https://tech.redventures.com.br/icons/pork/active.svg",
-        Name = "Meat",
-        Description = "Não é vegano",
-        Price = 15
-      };
-      listProteins.Add(firstProteins);
-      listProteins.Add(secondProteins);
-      return listProteins;
+      listProtein = GetMockDataProtein();
+
+      return listProtein;
     }
     private List<BrothModel> GetMockDataBroth()
     {
