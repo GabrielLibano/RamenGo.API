@@ -1,7 +1,9 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using RamenGo.ACL.Interfaces;
 using RamenGo.ACL.Model;
+using RamenGO.ACL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,18 +16,27 @@ namespace RamenGo.ACL.Rest
   public class RedventureAPI : IRedventureAPI
   {
 
-    private string BaseUrl = "https://api.tech.redventures.com.br"; //Desculpa não consegui colocar algum meio de proteção como .env ou como eu fiz na controller por meio do appSettings :(
-    private string key = "ZtVdh8XQ2U8pWI2gmZ7f796Vh8GllXoN7mr0djNf";
+    public IConfiguration Configuration { get; }
+    public IConfiguration InitConfiguration()
+    {
+      var config = new ConfigurationBuilder()
+          .AddJsonFile("appsettings.Development.json", optional: true, reloadOnChange: true)
+          .Build();
+      return config;
+    }
     private static HttpClient httpClient = new HttpClient();
     public dynamic MakeOrder(string brothId, string proteinId)
     {
+      var configuration = InitConfiguration();
+      var appSettingsSection = configuration.GetSection("AppSettings");
+      var appSettings = appSettingsSection.Get<AppSettings>();
       try
       {
         OrderRequestModel orderRequestModel = new OrderRequestModel() { ProteinId = proteinId, BrothId = brothId };
         var stringContent = new StringContent(orderRequestModel.ToString());
 
-        httpClient.DefaultRequestHeaders.Add("x-api-key", key);
-        HttpResponseMessage responseApi = httpClient.PostAsync($"{BaseUrl}/orders/generate-id", stringContent).Result;
+        httpClient.DefaultRequestHeaders.Add("x-api-key", appSettings.ApiKeyRedVenture);
+        HttpResponseMessage responseApi = httpClient.PostAsync($"{appSettings.BaseUrl}/orders/generate-id", stringContent).Result;
 
         if (responseApi.StatusCode != System.Net.HttpStatusCode.OK)
           return null;
