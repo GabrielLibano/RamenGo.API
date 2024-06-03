@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\RamenGoAPI\\RamenGO.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF6B287-4877-46E5-B4BF-4C2DE5EDE5B9}|RamenGO.API.csproj|d:\\ramengoapi\\ramengo.api\\dockerfile||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{ACF6B287-4877-46E5-B4BF-4C2DE5EDE5B9}|RamenGO.API.csproj|solutionrelative:dockerfile||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC30BF46-BB2C-4F16-9EC3-AF584C5F9BFB}|..\\RamenGo.ACL\\RamenGo.ACL.csproj|d:\\ramengoapi\\ramengo.acl\\rest\\redventureapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC30BF46-BB2C-4F16-9EC3-AF584C5F9BFB}|..\\RamenGo.ACL\\RamenGo.ACL.csproj|d:\\ramengoapi\\ramengo.acl\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC30BF46-BB2C-4F16-9EC3-AF584C5F9BFB}|..\\RamenGo.ACL\\RamenGo.ACL.csproj|d:\\ramengoapi\\ramengo.acl\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC30BF46-BB2C-4F16-9EC3-AF584C5F9BFB}|..\\RamenGo.ACL\\RamenGo.ACL.csproj|d:\\ramengoapi\\ramengo.acl\\ramengo.acl.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\RamenGoAPI\\RamenGO.API\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\RamenGoAPI\\RamenGO.API\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-03T19:41:50.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RedventureAPI.cs",
+              "DocumentMoniker": "D:\\RamenGoAPI\\RamenGo.ACL\\Rest\\RedventureAPI.cs",
+              "RelativeDocumentMoniker": "..\\RamenGo.ACL\\Rest\\RedventureAPI.cs",
+              "ToolTip": "D:\\RamenGoAPI\\RamenGo.ACL\\Rest\\RedventureAPI.cs",
+              "RelativeToolTip": "..\\RamenGo.ACL\\Rest\\RedventureAPI.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T19:41:35.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RamenGo.ACL",
+              "DocumentMoniker": "D:\\RamenGoAPI\\RamenGo.ACL\\RamenGo.ACL.csproj",
+              "RelativeDocumentMoniker": "..\\RamenGo.ACL\\RamenGo.ACL.csproj",
+              "ToolTip": "D:\\RamenGoAPI\\RamenGo.ACL\\RamenGo.ACL.csproj",
+              "RelativeToolTip": "..\\RamenGo.ACL\\RamenGo.ACL.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-03T19:41:08.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "D:\\RamenGoAPI\\RamenGo.ACL\\AppSettings.cs",
+              "RelativeDocumentMoniker": "..\\RamenGo.ACL\\AppSettings.cs",
+              "ToolTip": "D:\\RamenGoAPI\\RamenGo.ACL\\AppSettings.cs",
+              "RelativeToolTip": "..\\RamenGo.ACL\\AppSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T19:41:04.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\RamenGoAPI\\RamenGo.ACL\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "..\\RamenGo.ACL\\appsettings.Development.json",
+              "ToolTip": "D:\\RamenGoAPI\\RamenGo.ACL\\appsettings.Development.json",
+              "RelativeToolTip": "..\\RamenGo.ACL\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-03T19:40:59.145Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
