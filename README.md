@@ -22,6 +22,7 @@ O layout do RamenGo não fui eu que desenvolvi, a RedVenture disponibilizou o fr
 ## 🛣️ Como executar o projeto
 
 O projeto pode ser executado de duas maneiras diferentes.
+ - Subi uma aplicação WEB "https://apiramengo-6e5949aec3e5.herokuapp.com". Com isso, vá para a tela de teste "https://tech.redventures.com.br" e coloca a API url referenciando a minha aplicação e a minha key que disponibilizei no forms de vocês :)
  - Subi uma imagem docker - https://hub.docker.com/repository/docker/gabriellibano/ramengo/general
  - Caso queira clonar o meu repositorio basta:
 ```
@@ -32,4 +33,4 @@ git clone https://github.com/GabrielLibano/RamenGo.API.git
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-.NET 5
+.NET 6
