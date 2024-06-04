@@ -171,10 +171,18 @@ namespace RamenGO.API.Controllers
         {
           var bodyText = await reader.ReadToEndAsync();
           if (!string.IsNullOrEmpty(bodyText))
-            orderRequestModel = JsonConvert.DeserializeObject<OrderRequestModel>(bodyText);
+
+            try
+            {
+              orderRequestModel = JsonConvert.DeserializeObject<OrderRequestModel>(bodyText);
+            }
+            catch
+            {
+              return StatusCode(400, new ErrorResponse { Error = "both brothId and proteinId are required" });
+            }
         }
 
-        if(!ApiKeyIsValid(apiKey))
+        if (!ApiKeyIsValid(apiKey))
           return StatusCode(403, new ErrorResponse { Error = "x-api-key header missing" });
 
         if (orderRequestModel == null)
