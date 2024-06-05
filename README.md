@@ -28,7 +28,7 @@ O projeto pode ser executado de duas maneiras diferentes.
 ```
 git clone https://github.com/GabrielLibano/RamenGo.API.git
 ```
-  Após clonar abra a pasta "RamenGO.API" e abre o projeto "RamenGO.API.sln", ele vai te mandar para o visual studio.
+  Após clonar abra a pasta "RamenGO.API" e abre o projeto "RamenGO.API.sln", ele vai te mandar para o visual studio, roda o projeto como "ISS Express"
 
 ### Pré-requisitos
 
