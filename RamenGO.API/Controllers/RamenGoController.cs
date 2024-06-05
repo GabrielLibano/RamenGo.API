@@ -188,7 +188,7 @@ namespace RamenGO.API.Controllers
         if (orderRequestModel == null)
           return StatusCode(500, new ErrorResponse { Error = "could not place order" });
 
-        if (orderRequestModel.BrothId <= 0 || orderRequestModel.BrothId <= 0)
+        if (orderRequestModel.BrothId <= 0 || orderRequestModel.ProteinId <= 0)
           return StatusCode(400, new ErrorResponse { Error = "both brothId and proteinId are required" });
 
 
